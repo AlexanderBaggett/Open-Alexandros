@@ -1,0 +1,8 @@
+{
+  "name": "latent_traces_tiny",
+  "purpose": "Synthetic CI-only visible reasoning trace fixture for latent-trace ingestion tests.",
+  "source": "Hand-written synthetic token IDs.",
+  "license": "CC0-1.0",
+  "contains_human_data": false,
+  "quality_claim": "No model-quality claim; validates parsing, padding, masking, and trainer plumbing only."
+}

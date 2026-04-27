@@ -1,0 +1,22 @@
+{
+  "format": "open-alexandros-test-fixture-metadata",
+  "format_version": 1,
+  "name": "token_ids_tiny",
+  "file": "token_ids_tiny.jsonl",
+  "sha256": "273d948c45eedf7c2a958d74a164214307d5efc4a04b94ab23159319ebe73eb8",
+  "source": "Synthetic token IDs hand-written for Open-Alexandros correctness tests.",
+  "license": "MIT License, same as the repository.",
+  "allowed_use": "Unit, integration, and CI smoke tests only.",
+  "not_for": "Pretraining, quality claims, benchmark comparisons, or model release claims.",
+  "vocab_contract": {
+    "vocab_size_minimum": 20,
+    "pad_token_id": 0,
+    "bos_token_id": 1,
+    "eos_token_id": 2,
+    "mask_token_id": 3
+  },
+  "notes": [
+    "The fixture is pre-tokenized; it is not natural-language text.",
+    "The fixture intentionally avoids any external corpus or tokenizer ownership."
+  ]
+}
